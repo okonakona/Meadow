@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+body{
+	padding: -1px;
+	background-color: #000;
+	background-image: url("../images/back_l.jpeg");	
+	background-size: cover;
+	background-attachment: fixed;
+	color: #4B2D1C;
+	font-family: "ヒラギノ明朝 ProN",sans-serif;
+}
+
+#container{
+	width: 1120px;
+	border: double #958E90;
+	background: #FFFBF1;
+	margin: 0 auto;
+	padding: 50px 55px 90px 55px;
+	border-radius: 10px;
+
+}
+
+#topNav{
+	width: 1230px;
+	height: 169px;
+	margin: -55px -55px;
+	background: #FFFBF1;
+	text-align: center;
+	position: fixed;
+	z-index: 10;
+	font-family: "Snell Roundhand",sans-serif;
+	font-size: 20px;
+
+}
+
+#logo img{
+	visibility: hidden;
+}
+
+
+#logoBar{
+	margin: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navR{
+	font-family: "ヒラギノ明朝 ProN",sans-serif;
+	font-size: 15px;
+	color: #958E90;
+}
+
+
+#logoBar a:link,
+#logoBar a:visited{
+	text-decoration: none;
+	color: #4B2D1C;
+}
+
+#logoBar a:hover{
+	color: #FFFBF1;
+	background: #AC9898;
+	transition: 150ms ease-in-out;
+}
+
+#navigation{
+	width: 700px;
+	border-top: dotted 0.5px;
+	margin: 0 auto;
+}
+
+#navigation ul{
+	display: flex;
+}
+
+#navigation li{
+	height: 35px;
+	width: 150px;
+	text-align: center;
+}
+
+#navigation a{
+	display: block;
+	padding: 0.5em 0;
+	width: 140px;
+}
+
+#navigation li a:link,
+#navigation li a:visited{
+	color: #000;
+	background: #FFFBF1;
+	text-decoration: none;
+}
+
+#navigation li a:hover{
+	color: #FFFBF1;
+	background: #AC9898;
+	transition: 150ms ease-in-out;
+}
+
+#boxTop p{
+	width: 1120px;
+	position: relative;
+	z-index: 1;
+	margin-top: 90px;
+}
+
+
+#header h2{
+	width: 1120px;
+	position: relative;
+	z-index: 1;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#header h3{
+	font-family: "Snell Roundhand",sans-serif;
+	text-align: center;
+	margin: 0 0 30px;
+	color: #958E90;
+	font-size: 22px;
+}
+
+#header p{
+	color: #958E90;
+	text-align: center;
+}
+
+#form{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+
+
+
+
+
+address{
+	text-align: center;
+	color: #FFFBF1;
+	padding: 50px;
+
+}
